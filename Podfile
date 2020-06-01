@@ -1,5 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
-platform :osx, '10.8'
+platform :osx, '10.10'
+use_frameworks!
 
 # cocoapods-prune-localizations doesn't appear to auto-detect pods properly, so using a manual list
 supported_locales = ['Base', 'da', 'de', 'en', 'es', 'fr', 'it', 'ja', 'ko', 'nl', 'pt-BR', 'sv', 'tr', 'zh-Hans']
@@ -10,4 +11,5 @@ target "SelfControl" do
     pod 'FormatterKit/TimeIntervalFormatter', '~> 1.8.0'
     pod 'Sparkle', '~> 1.22'
     pod 'LetsMove', '~> 1.24'
+    pod 'TrueTime'
 end

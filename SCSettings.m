@@ -7,7 +7,7 @@
 
 #import "SCSettings.h"
 #include <IOKit/IOKitLib.h>
-#import <CommonCrypto/CommonCrypto.h>
+@import CommonCrypto; // bridged via Swift; o/w use #import <CommonCrypto/CommonCrypto.h>
 #include <pwd.h>
 #import "SCUtilities.h"
 #import <AppKit/AppKit.h>
