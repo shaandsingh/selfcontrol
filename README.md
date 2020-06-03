@@ -1,3 +1,7 @@
+FORK
+-----
+Branch [`use-true-time`](https://github.com/shaandsingh/selfcontrol/tree/use-true-time), off [working copy](https://github.com/SelfControlApp/selfcontrol/commit/2c9f30b46eccc1d3ebf1d6284da7a971da1c81f9), attempts to make SelfControl impervious to the only easy trick to disabling it—changing the date/time in System Preferences past the timer's expiry. [Original issue](https://github.com/SelfControlApp/selfcontrol/issues/28), [solution idea](https://github.com/SelfControlApp/selfcontrol/issues/475), [development thread](https://github.com/SelfControlApp/selfcontrol/issues/618).
+
 [SelfControl](http://selfcontrolapp.com)
 ===========
 
