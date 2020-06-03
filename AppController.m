@@ -29,6 +29,7 @@
 #import <SystemConfiguration/SystemConfiguration.h>
 #import <LetsMove/PFMoveApplication.h>
 #import "SCSettings.h"
+#import "NHNetworkTime.h"
 
 NSString* const kSelfControlErrorDomain = @"SelfControlErrorDomain";
 
@@ -349,6 +350,9 @@ NSString* const kSelfControlErrorDomain = @"SelfControlErrorDomain";
 											   object: nil];
 
 	[initialWindow_ center];
+    
+    // Synchronize the network time
+    [[NHNetworkClock sharedNetworkClock] synchronize];
 
 	// We'll set blockIsOn to whatever is NOT right, so that in refreshUserInterface
 	// it'll fix it and properly refresh the user interface.

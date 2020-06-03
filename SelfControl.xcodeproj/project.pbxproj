@@ -22,10 +22,42 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		31EE4C282484457700232F56 /* SCUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB1731320F041F4007FCAE9 /* SCUtilities.m */; };
+		31FBD2EA2487D4DE00C40B05 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBD2CC2487D4DE00C40B05 /* GCDAsyncUdpSocket.m */; };
+		31FBD2EB2487D4DE00C40B05 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBD2CC2487D4DE00C40B05 /* GCDAsyncUdpSocket.m */; };
+		31FBD2EC2487D4DE00C40B05 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBD2CC2487D4DE00C40B05 /* GCDAsyncUdpSocket.m */; };
+		31FBD2ED2487D4DE00C40B05 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBD2CC2487D4DE00C40B05 /* GCDAsyncUdpSocket.m */; };
+		31FBD2EE2487D4DE00C40B05 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBD2CC2487D4DE00C40B05 /* GCDAsyncUdpSocket.m */; };
+		31FBD2EF2487D4DE00C40B05 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBD2CD2487D4DE00C40B05 /* GCDAsyncSocket.m */; };
+		31FBD2F02487D4DE00C40B05 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBD2CD2487D4DE00C40B05 /* GCDAsyncSocket.m */; };
+		31FBD2F12487D4DE00C40B05 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBD2CD2487D4DE00C40B05 /* GCDAsyncSocket.m */; };
+		31FBD2F22487D4DE00C40B05 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBD2CD2487D4DE00C40B05 /* GCDAsyncSocket.m */; };
+		31FBD2F32487D4DE00C40B05 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBD2CD2487D4DE00C40B05 /* GCDAsyncSocket.m */; };
+		31FBD2F42487D4DE00C40B05 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 31FBD2CE2487D4DE00C40B05 /* GCDAsyncUdpSocket.h */; };
+		31FBD2F52487D4DE00C40B05 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 31FBD2CF2487D4DE00C40B05 /* GCDAsyncSocket.h */; };
+		31FBD2F62487D4DE00C40B05 /* CocoaAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 31FBD2D02487D4DE00C40B05 /* CocoaAsyncSocket.h */; };
+		31FBD3372487D50700C40B05 /* NHNTLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 31FBD32F2487D50700C40B05 /* NHNTLog.h */; };
+		31FBD3382487D50700C40B05 /* NHNetworkClock.h in Headers */ = {isa = PBXBuildFile; fileRef = 31FBD3302487D50700C40B05 /* NHNetworkClock.h */; };
+		31FBD3392487D50700C40B05 /* NHNetAssociation.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBD3312487D50700C40B05 /* NHNetAssociation.m */; };
+		31FBD33A2487D50700C40B05 /* NHNetAssociation.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBD3312487D50700C40B05 /* NHNetAssociation.m */; };
+		31FBD33B2487D50700C40B05 /* NHNetAssociation.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBD3312487D50700C40B05 /* NHNetAssociation.m */; };
+		31FBD33C2487D50700C40B05 /* NHNetAssociation.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBD3312487D50700C40B05 /* NHNetAssociation.m */; };
+		31FBD33D2487D50700C40B05 /* NHNetAssociation.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBD3312487D50700C40B05 /* NHNetAssociation.m */; };
+		31FBD33E2487D50700C40B05 /* NSDate+NetworkClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBD3322487D50700C40B05 /* NSDate+NetworkClock.m */; };
+		31FBD33F2487D50700C40B05 /* NSDate+NetworkClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBD3322487D50700C40B05 /* NSDate+NetworkClock.m */; };
+		31FBD3402487D50700C40B05 /* NSDate+NetworkClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBD3322487D50700C40B05 /* NSDate+NetworkClock.m */; };
+		31FBD3412487D50700C40B05 /* NSDate+NetworkClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBD3322487D50700C40B05 /* NSDate+NetworkClock.m */; };
+		31FBD3422487D50700C40B05 /* NSDate+NetworkClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBD3322487D50700C40B05 /* NSDate+NetworkClock.m */; };
+		31FBD3432487D50700C40B05 /* NHNetAssociation.h in Headers */ = {isa = PBXBuildFile; fileRef = 31FBD3332487D50700C40B05 /* NHNetAssociation.h */; };
+		31FBD3442487D50700C40B05 /* NHNetworkClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBD3342487D50700C40B05 /* NHNetworkClock.m */; };
+		31FBD3452487D50700C40B05 /* NHNetworkClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBD3342487D50700C40B05 /* NHNetworkClock.m */; };
+		31FBD3462487D50700C40B05 /* NHNetworkClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBD3342487D50700C40B05 /* NHNetworkClock.m */; };
+		31FBD3472487D50700C40B05 /* NHNetworkClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBD3342487D50700C40B05 /* NHNetworkClock.m */; };
+		31FBD3482487D50700C40B05 /* NHNetworkClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FBD3342487D50700C40B05 /* NHNetworkClock.m */; };
+		31FBD3492487D50700C40B05 /* NHNetworkTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 31FBD3352487D50700C40B05 /* NHNetworkTime.h */; };
+		31FBD34A2487D50700C40B05 /* NSDate+NetworkClock.h in Headers */ = {isa = PBXBuildFile; fileRef = 31FBD3362487D50700C40B05 /* NSDate+NetworkClock.h */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		B10E66D7021B7E3084972920 /* Pods_SelfControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BA4FD4B10013572C8904E3 /* Pods_SelfControl.framework */; };
+		AA0270C7A1D37351F38296D7 /* libPods-SelfControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B433289D7F3EC8A3F9632F /* libPods-SelfControl.a */; };
 		CB0385E119D77051004614B6 /* PreferencesAdvancedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB0385DD19D77051004614B6 /* PreferencesAdvancedViewController.xib */; };
 		CB0385E219D77051004614B6 /* PreferencesGeneralViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB0385DF19D77051004614B6 /* PreferencesGeneralViewController.xib */; };
 		CB0EEF7820FE49030024D27B /* SCUtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0EEF7720FE49020024D27B /* SCUtilitiesTests.m */; };
@@ -81,6 +113,7 @@
 		CBB0AE2A0FA74566006229B3 /* HostFileBlocker.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB0AE290FA74566006229B3 /* HostFileBlocker.m */; };
 		CBB1731520F041F4007FCAE9 /* SCUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB1731320F041F4007FCAE9 /* SCUtilities.m */; };
 		CBB1731920F05C07007FCAE9 /* SCUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB1731320F041F4007FCAE9 /* SCUtilities.m */; };
+		CBB1731B20F05C09007FCAE9 /* SCUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB1731320F041F4007FCAE9 /* SCUtilities.m */; };
 		CBB1731C20F05C0A007FCAE9 /* SCUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB1731320F041F4007FCAE9 /* SCUtilities.m */; };
 		CBB3FD7A0F53834B00244132 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9E901D0F397FFA006DE6E4 /* Security.framework */; };
 		CBB7DEEA0F53313F00ABF3EA /* DomainListWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB637220F3E296000EBD135 /* DomainListWindowController.m */; };
@@ -183,28 +216,32 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0746E1A1423DD33A138DA63E /* Pods-SelfControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfControl.debug.xcconfig"; path = "Target Support Files/Pods-SelfControl/Pods-SelfControl.debug.xcconfig"; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		317FFE0C2485780100878595 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		3186597E2483FB9300E8C041 /* TrueTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TrueTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		31CE62502483EDCE00C8B473 /* SelfControl-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SelfControl-Bridging-Header.h"; sourceTree = "<group>"; };
-		31CE62512483EDCE00C8B473 /* Distribution-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Distribution-Bridging-Header.h"; sourceTree = "<group>"; };
-		31CE62522483EDCE00C8B473 /* SelfControl Killer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SelfControl Killer-Bridging-Header.h"; sourceTree = "<group>"; };
-		31CE62532483EDCF00C8B473 /* SCKillerHelper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SCKillerHelper-Bridging-Header.h"; sourceTree = "<group>"; };
-		31CE62542483EDCF00C8B473 /* SelfControlTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SelfControlTests-Bridging-Header.h"; sourceTree = "<group>"; };
-		31CE625B2483EE0200C8B473 /* org.eyebeam.SelfControl-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "org.eyebeam.SelfControl-Bridging-Header.h"; sourceTree = "<group>"; };
+		31FBD2CC2487D4DE00C40B05 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		31FBD2CD2487D4DE00C40B05 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		31FBD2CE2487D4DE00C40B05 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		31FBD2CF2487D4DE00C40B05 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		31FBD2D02487D4DE00C40B05 /* CocoaAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaAsyncSocket.h; sourceTree = "<group>"; };
+		31FBD32F2487D50700C40B05 /* NHNTLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHNTLog.h; sourceTree = "<group>"; };
+		31FBD3302487D50700C40B05 /* NHNetworkClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHNetworkClock.h; sourceTree = "<group>"; };
+		31FBD3312487D50700C40B05 /* NHNetAssociation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHNetAssociation.m; sourceTree = "<group>"; };
+		31FBD3322487D50700C40B05 /* NSDate+NetworkClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NetworkClock.m"; sourceTree = "<group>"; };
+		31FBD3332487D50700C40B05 /* NHNetAssociation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHNetAssociation.h; sourceTree = "<group>"; };
+		31FBD3342487D50700C40B05 /* NHNetworkClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHNetworkClock.m; sourceTree = "<group>"; };
+		31FBD3352487D50700C40B05 /* NHNetworkTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHNetworkTime.h; sourceTree = "<group>"; };
+		31FBD3362487D50700C40B05 /* NSDate+NetworkClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+NetworkClock.h"; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* SelfControl_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfControl_Prefix.pch; sourceTree = "<group>"; };
 		3EF418F71CC7F7FA002D99E8 /* nl */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3EF418F81CC7F7FA002D99E8 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		53BA4FD4B10013572C8904E3 /* Pods_SelfControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SelfControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B433289D7F3EC8A3F9632F /* libPods-SelfControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SelfControl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F489F28028DC38C046B36D3 /* Pods-SelfControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-SelfControl/Pods-SelfControl.release.xcconfig"; sourceTree = "<group>"; };
 		640D40CB16D6E962003034B3 /* it */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
 		640D40CC16D6E962003034B3 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* SelfControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		93437E6182EECDDB243CB945 /* Pods-SelfControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfControl.release.xcconfig"; path = "Target Support Files/Pods-SelfControl/Pods-SelfControl.release.xcconfig"; sourceTree = "<group>"; };
 		949F9F8815B32EC6007B8B42 /* zh-Hans */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		949F9F8D15B333A1007B8B42 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		CB0EEF5D20FD8CE00024D27B /* SelfControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -368,6 +405,7 @@
 		CBEE50C00F48C21F00F5DF1C /* TimerWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerWindowController.m; sourceTree = "<group>"; };
 		CBF3B572217BADD7006D5F52 /* SCSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCSettings.h; sourceTree = "<group>"; };
 		CBF3B573217BADD7006D5F52 /* SCSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCSettings.m; sourceTree = "<group>"; };
+		DBA01017E61D6B843CA3758D /* Pods-SelfControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SelfControl/Pods-SelfControl.debug.xcconfig"; sourceTree = "<group>"; };
 		F5B8CBEC19EE21C30026F3A5 /* SCTimeIntervalFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTimeIntervalFormatter.h; sourceTree = "<group>"; };
 		F5B8CBED19EE21C30026F3A5 /* SCTimeIntervalFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTimeIntervalFormatter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -381,7 +419,7 @@
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				CB587E500F50FE8800C66A09 /* SystemConfiguration.framework in Frameworks */,
 				CBB3FD7A0F53834B00244132 /* Security.framework in Frameworks */,
-				B10E66D7021B7E3084972920 /* Pods_SelfControl.framework in Frameworks */,
+				AA0270C7A1D37351F38296D7 /* libPods-SelfControl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,15 +466,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		051B08732E5F8262A973006C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0746E1A1423DD33A138DA63E /* Pods-SelfControl.debug.xcconfig */,
-				93437E6182EECDDB243CB945 /* Pods-SelfControl.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -480,7 +509,6 @@
 				CB1E7A6D0F9AEA9B00D158BC /* ERRORS */,
 				CB4294DF0F53D865008E10CA /* Classes */,
 				CB0EEF5E20FD8CE00024D27B /* SelfControlTests */,
-				317FFE0B2485780100878595 /* t */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				CB4294F10F53D95D008E10CA /* Interfaces */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -489,7 +517,7 @@
 				CB42939A0F53A819008E10CA /* COPYING */,
 				CBB60BE41F13441F00DCB597 /* Distribution Build */,
 				CB9C80F819CFB79700CDCAE1 /* SelfControl Killer */,
-				051B08732E5F8262A973006C /* Pods */,
+				DDDC709FF9E9196A96CA7BCF /* Pods */,
 			);
 			name = SelfControl;
 			sourceTree = "<group>";
@@ -523,36 +551,50 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3186597E2483FB9300E8C041 /* TrueTime.framework */,
 				CB32D2AD21902D9D00B8CD68 /* IOKit.framework */,
 				CB9C812B19CFBB8400CDCAE1 /* Cocoa.framework */,
 				CB9C812919CFBB8000CDCAE1 /* Foundation.framework */,
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
-				53BA4FD4B10013572C8904E3 /* Pods_SelfControl.framework */,
+				59B433289D7F3EC8A3F9632F /* libPods-SelfControl.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		317FFE0B2485780100878595 /* t */ = {
+		31FBD2C82487D3C500C40B05 /* Network Time */ = {
 			isa = PBXGroup;
 			children = (
-				317FFE0C2485780100878595 /* main.swift */,
+				31FBD32E2487D50700C40B05 /* NHNetworkTime */,
+				31FBD2C92487D4DE00C40B05 /* CocoaAsyncSocket */,
 			);
-			path = t;
+			name = "Network Time";
 			sourceTree = "<group>";
 		};
-		31CE624F2483EDBD00C8B473 /* Bridging Headers */ = {
+		31FBD2C92487D4DE00C40B05 /* CocoaAsyncSocket */ = {
 			isa = PBXGroup;
 			children = (
-				31CE62502483EDCE00C8B473 /* SelfControl-Bridging-Header.h */,
-				31CE625B2483EE0200C8B473 /* org.eyebeam.SelfControl-Bridging-Header.h */,
-				31CE62512483EDCE00C8B473 /* Distribution-Bridging-Header.h */,
-				31CE62522483EDCE00C8B473 /* SelfControl Killer-Bridging-Header.h */,
-				31CE62532483EDCF00C8B473 /* SCKillerHelper-Bridging-Header.h */,
-				31CE62542483EDCF00C8B473 /* SelfControlTests-Bridging-Header.h */,
+				31FBD2CC2487D4DE00C40B05 /* GCDAsyncUdpSocket.m */,
+				31FBD2CD2487D4DE00C40B05 /* GCDAsyncSocket.m */,
+				31FBD2CE2487D4DE00C40B05 /* GCDAsyncUdpSocket.h */,
+				31FBD2CF2487D4DE00C40B05 /* GCDAsyncSocket.h */,
+				31FBD2D02487D4DE00C40B05 /* CocoaAsyncSocket.h */,
 			);
-			name = "Bridging Headers";
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		31FBD32E2487D50700C40B05 /* NHNetworkTime */ = {
+			isa = PBXGroup;
+			children = (
+				31FBD32F2487D50700C40B05 /* NHNTLog.h */,
+				31FBD3352487D50700C40B05 /* NHNetworkTime.h */,
+				31FBD3332487D50700C40B05 /* NHNetAssociation.h */,
+				31FBD3312487D50700C40B05 /* NHNetAssociation.m */,
+				31FBD3302487D50700C40B05 /* NHNetworkClock.h */,
+				31FBD3342487D50700C40B05 /* NHNetworkClock.m */,
+				31FBD3362487D50700C40B05 /* NSDate+NetworkClock.h */,
+				31FBD3322487D50700C40B05 /* NSDate+NetworkClock.m */,
+			);
+			path = NHNetworkTime;
 			sourceTree = "<group>";
 		};
 		CB0EEF5E20FD8CE00024D27B /* SelfControlTests */ = {
@@ -603,7 +645,7 @@
 				CBB1731320F041F4007FCAE9 /* SCUtilities.m */,
 				CB5DFCB52251DD1F0084CEC2 /* SCConstants.h */,
 				CB5DFCB62251DD1F0084CEC2 /* SCConstants.m */,
-				31CE624F2483EDBD00C8B473 /* Bridging Headers */,
+				31FBD2C82487D3C500C40B05 /* Network Time */,
 				F5B8CBEB19EE21340026F3A5 /* Formatters */,
 			);
 			name = Classes;
@@ -674,6 +716,15 @@
 			name = "Helper Tools";
 			sourceTree = "<group>";
 		};
+		DDDC709FF9E9196A96CA7BCF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBA01017E61D6B843CA3758D /* Pods-SelfControl.debug.xcconfig */,
+				5F489F28028DC38C046B36D3 /* Pods-SelfControl.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F5B8CBEB19EE21340026F3A5 /* Formatters */ = {
 			isa = PBXGroup;
 			children = (
@@ -690,6 +741,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31FBD34A2487D50700C40B05 /* NSDate+NetworkClock.h in Headers */,
+				31FBD3382487D50700C40B05 /* NHNetworkClock.h in Headers */,
+				31FBD2F42487D4DE00C40B05 /* GCDAsyncUdpSocket.h in Headers */,
+				31FBD3492487D50700C40B05 /* NHNetworkTime.h in Headers */,
+				31FBD3372487D50700C40B05 /* NHNTLog.h in Headers */,
+				31FBD2F52487D4DE00C40B05 /* GCDAsyncSocket.h in Headers */,
+				31FBD3432487D50700C40B05 /* NHNetAssociation.h in Headers */,
+				31FBD2F62487D4DE00C40B05 /* CocoaAsyncSocket.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -700,13 +759,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "SelfControl" */;
 			buildPhases = (
-				2918C9365FB42CA49ACFF658 /* [CP] Check Pods Manifest.lock */,
+				10CA088CE7CF641F4F172445 /* [CP] Check Pods Manifest.lock */,
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
 				CB2359D90F4541AB0030F59C /* Copy Helper Tools */,
 				CB5E5FF81C3A5FD10038F331 /* ShellScript */,
-				0CC705274D564556E7B980E5 /* [CP] Embed Pods Frameworks */,
+				7D55904F6A3D627B837007A9 /* [CP] Embed Pods Frameworks */,
+				CBFF218A3108765AAB5DE542 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -798,12 +858,10 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 0930;
 				TargetAttributes = {
 					8D1107260486CEB800E47090 = {
 						DevelopmentTeam = 72BN3545LH;
-						LastSwiftMigration = 1150;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.Mac = {
@@ -814,25 +872,21 @@
 					CB0EEF5C20FD8CE00024D27B = {
 						CreatedOnToolsVersion = 9.4.1;
 						DevelopmentTeam = 72BN3545LH;
-						LastSwiftMigration = 1150;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 8D1107260486CEB800E47090;
 					};
 					CB9C80F619CFB79700CDCAE1 = {
 						CreatedOnToolsVersion = 6.0.1;
 						DevelopmentTeam = 72BN3545LH;
-						LastSwiftMigration = 1150;
 						ProvisioningStyle = Automatic;
 					};
 					CB9C811A19CFBA8500CDCAE1 = {
 						CreatedOnToolsVersion = 6.0.1;
 						DevelopmentTeam = 72BN3545LH;
-						LastSwiftMigration = 1150;
 						ProvisioningStyle = Manual;
 					};
 					CB9F02EE16C10CDE003054EE = {
 						DevelopmentTeam = L6W5L88KN7;
-						LastSwiftMigration = 1150;
 					};
 					CBA2AFD10F39EC12005AFEBE = {
 						DevelopmentTeam = 72BN3545LH;
@@ -920,54 +974,42 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0CC705274D564556E7B980E5 /* [CP] Embed Pods Frameworks */ = {
+		10CA088CE7CF641F4F172445 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SelfControl/Pods-SelfControl-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FormatterKit/FormatterKit.framework",
-				"${BUILT_PRODUCTS_DIR}/LetsMove/LetsMove.framework",
-				"${BUILT_PRODUCTS_DIR}/MASPreferences/MASPreferences.framework",
-				"${PODS_ROOT}/Sparkle/Sparkle.framework",
-				"${PODS_ROOT}/Sparkle/Sparkle.framework.dSYM",
-				"${BUILT_PRODUCTS_DIR}/TrueTime/TrueTime.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FormatterKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LetsMove.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MASPreferences.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sparkle.framework",
-				"${DWARF_DSYM_FOLDER_PATH}/Sparkle.framework.dSYM",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TrueTime.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SelfControl/Pods-SelfControl-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2918C9365FB42CA49ACFF658 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-SelfControl-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D55904F6A3D627B837007A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SelfControl/Pods-SelfControl-frameworks.sh",
+				"${PODS_ROOT}/Sparkle/Sparkle.framework",
+				"${PODS_ROOT}/Sparkle/Sparkle.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sparkle.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Sparkle.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SelfControl/Pods-SelfControl-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CB20C5D6245696C500B9D749 /* ShellScript */ = {
@@ -1014,6 +1056,104 @@
 			shellPath = /bin/sh;
 			shellScript = "ruby ./distribution-build.rb\n";
 		};
+		CBFF218A3108765AAB5DE542 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SelfControl/Pods-SelfControl-resources.sh",
+				"${PODS_ROOT}/FormatterKit/Localizations/ca.lproj",
+				"${PODS_ROOT}/FormatterKit/Localizations/cs.lproj",
+				"${PODS_ROOT}/FormatterKit/Localizations/da.lproj",
+				"${PODS_ROOT}/FormatterKit/Localizations/de.lproj",
+				"${PODS_ROOT}/FormatterKit/Localizations/el.lproj",
+				"${PODS_ROOT}/FormatterKit/Localizations/en.lproj",
+				"${PODS_ROOT}/FormatterKit/Localizations/es.lproj",
+				"${PODS_ROOT}/FormatterKit/Localizations/fr.lproj",
+				"${PODS_ROOT}/FormatterKit/Localizations/id.lproj",
+				"${PODS_ROOT}/FormatterKit/Localizations/it.lproj",
+				"${PODS_ROOT}/FormatterKit/Localizations/ja.lproj",
+				"${PODS_ROOT}/FormatterKit/Localizations/ko.lproj",
+				"${PODS_ROOT}/FormatterKit/Localizations/nb.lproj",
+				"${PODS_ROOT}/FormatterKit/Localizations/nl.lproj",
+				"${PODS_ROOT}/FormatterKit/Localizations/nn.lproj",
+				"${PODS_ROOT}/FormatterKit/Localizations/pl.lproj",
+				"${PODS_ROOT}/FormatterKit/Localizations/pt.lproj",
+				"${PODS_ROOT}/FormatterKit/Localizations/pt_BR.lproj",
+				"${PODS_ROOT}/FormatterKit/Localizations/ru.lproj",
+				"${PODS_ROOT}/FormatterKit/Localizations/sv.lproj",
+				"${PODS_ROOT}/FormatterKit/Localizations/tr.lproj",
+				"${PODS_ROOT}/FormatterKit/Localizations/uk.lproj",
+				"${PODS_ROOT}/FormatterKit/Localizations/vi.lproj",
+				"${PODS_ROOT}/FormatterKit/Localizations/zh-Hans.lproj",
+				"${PODS_ROOT}/FormatterKit/Localizations/zh-Hant.lproj",
+				"${PODS_ROOT}/LetsMove/ca.lproj",
+				"${PODS_ROOT}/LetsMove/cs.lproj",
+				"${PODS_ROOT}/LetsMove/da.lproj",
+				"${PODS_ROOT}/LetsMove/de.lproj",
+				"${PODS_ROOT}/LetsMove/en.lproj",
+				"${PODS_ROOT}/LetsMove/es.lproj",
+				"${PODS_ROOT}/LetsMove/fr.lproj",
+				"${PODS_ROOT}/LetsMove/hu.lproj",
+				"${PODS_ROOT}/LetsMove/it.lproj",
+				"${PODS_ROOT}/LetsMove/ja.lproj",
+				"${PODS_ROOT}/LetsMove/ko.lproj",
+				"${PODS_ROOT}/LetsMove/mk.lproj",
+				"${PODS_ROOT}/LetsMove/nb.lproj",
+				"${PODS_ROOT}/LetsMove/nl.lproj",
+				"${PODS_ROOT}/LetsMove/pl.lproj",
+				"${PODS_ROOT}/LetsMove/pt.lproj",
+				"${PODS_ROOT}/LetsMove/pt_BR.lproj",
+				"${PODS_ROOT}/LetsMove/ru.lproj",
+				"${PODS_ROOT}/LetsMove/sk.lproj",
+				"${PODS_ROOT}/LetsMove/sr.lproj",
+				"${PODS_ROOT}/LetsMove/sv.lproj",
+				"${PODS_ROOT}/LetsMove/tr.lproj",
+				"${PODS_ROOT}/LetsMove/zh_CN.lproj",
+				"${PODS_ROOT}/LetsMove/zh_TW.lproj",
+				"${PODS_ROOT}/MASPreferences/Framework/en.lproj/MASPreferencesWindow.xib",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ca.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/cs.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/da.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/de.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/el.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/es.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/fr.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/id.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/it.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ja.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ko.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/nb.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/nl.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/nn.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pl.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pt.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pt_BR.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ru.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/sv.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/tr.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/uk.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/vi.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hans.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hant.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/hu.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mk.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/sk.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/sr.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh_CN.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh_TW.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MASPreferencesWindow.nib",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SelfControl/Pods-SelfControl-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1021,10 +1161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31FBD2EF2487D4DE00C40B05 /* GCDAsyncSocket.m in Sources */,
+				31FBD3392487D50700C40B05 /* NHNetAssociation.m in Sources */,
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				31FBD2EA2487D4DE00C40B05 /* GCDAsyncUdpSocket.m in Sources */,
 				CB529BBF0F32B7ED00564FB8 /* AppController.m in Sources */,
 				CBB1731920F05C07007FCAE9 /* SCUtilities.m in Sources */,
 				F5B8CBEE19EE21C30026F3A5 /* SCTimeIntervalFormatter.m in Sources */,
+				31FBD3442487D50700C40B05 /* NHNetworkClock.m in Sources */,
 				CBD4848A19D764440020F949 /* PreferencesGeneralViewController.m in Sources */,
 				CBEE50C10F48C21F00F5DF1C /* TimerWindowController.m in Sources */,
 				CB90BF830F49F430006D202D /* HostImporter.m in Sources */,
@@ -1032,6 +1176,7 @@
 				CBE4401B0F4BE0670062A1FE /* ThunderbirdPreferenceParser.m in Sources */,
 				CBE5C40B0F4D4531003DB900 /* ButtonWithPopupMenu.m in Sources */,
 				CBD4848F19D768C90020F949 /* PreferencesAdvancedViewController.m in Sources */,
+				31FBD33E2487D50700C40B05 /* NSDate+NetworkClock.m in Sources */,
 				CBB7DEEA0F53313F00ABF3EA /* DomainListWindowController.m in Sources */,
 				CBF3B574217BADD7006D5F52 /* SCSettings.m in Sources */,
 				CB25806616C237F10059C99A /* NSString+IPAddress.m in Sources */,
@@ -1042,9 +1187,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31FBD3422487D50700C40B05 /* NSDate+NetworkClock.m in Sources */,
+				31FBD33D2487D50700C40B05 /* NHNetAssociation.m in Sources */,
+				31FBD2F32487D4DE00C40B05 /* GCDAsyncSocket.m in Sources */,
 				CBDF919A225C5A9700358B95 /* SCUtilities.m in Sources */,
+				31FBD2EE2487D4DE00C40B05 /* GCDAsyncUdpSocket.m in Sources */,
 				CB5DFCBC2251DD1F0084CEC2 /* SCConstants.m in Sources */,
 				CB114284222CD4F0004B7868 /* SCSettings.m in Sources */,
+				31FBD3482487D50700C40B05 /* NHNetworkClock.m in Sources */,
 				CB0EEF7820FE49030024D27B /* SCUtilitiesTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1055,8 +1205,13 @@
 			files = (
 				CB9C80FF19CFB79700CDCAE1 /* AppDelegate.m in Sources */,
 				CB9C80FC19CFB79700CDCAE1 /* main.m in Sources */,
+				31FBD33B2487D50700C40B05 /* NHNetAssociation.m in Sources */,
 				CB5DFCBA2251DD1F0084CEC2 /* SCConstants.m in Sources */,
 				CB32D2AC21902CF800B8CD68 /* SCSettings.m in Sources */,
+				31FBD3462487D50700C40B05 /* NHNetworkClock.m in Sources */,
+				31FBD3402487D50700C40B05 /* NSDate+NetworkClock.m in Sources */,
+				31FBD2EC2487D4DE00C40B05 /* GCDAsyncUdpSocket.m in Sources */,
+				31FBD2F12487D4DE00C40B05 /* GCDAsyncSocket.m in Sources */,
 				CBB1731C20F05C0A007FCAE9 /* SCUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1066,16 +1221,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB9C811E19CFBA8500CDCAE1 /* main.m in Sources */,
+				31FBD3412487D50700C40B05 /* NSDate+NetworkClock.m in Sources */,
+				31FBD2F22487D4DE00C40B05 /* GCDAsyncSocket.m in Sources */,
 				CB5DFCBB2251DD1F0084CEC2 /* SCConstants.m in Sources */,
 				CB9C812719CFBB6400CDCAE1 /* NSString+IPAddress.m in Sources */,
+				31FBD33C2487D50700C40B05 /* NHNetAssociation.m in Sources */,
 				CBE44FEB19E50900004E9706 /* WhitelistScraper.m in Sources */,
+				31FBD2ED2487D4DE00C40B05 /* GCDAsyncUdpSocket.m in Sources */,
 				CB9C812619CFBB5E00CDCAE1 /* BlockManager.m in Sources */,
-				31EE4C282484457700232F56 /* SCUtilities.m in Sources */,
 				CB9C812519CFBB5500CDCAE1 /* HelperCommon.m in Sources */,
 				CB9C812419CFBB4E00CDCAE1 /* HostFileBlocker.m in Sources */,
 				CB114283222CCF19004B7868 /* SCSettings.m in Sources */,
 				CB9C812319CFBB4400CDCAE1 /* LaunchctlHelper.m in Sources */,
 				CB9C812219CFBB3800CDCAE1 /* PacketFilter.m in Sources */,
+				CBB1731B20F05C09007FCAE9 /* SCUtilities.m in Sources */,
+				31FBD3472487D50700C40B05 /* NHNetworkClock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1086,14 +1246,19 @@
 				CB20C5D8245699D700B9D749 /* version-header.h in Sources */,
 				CBA2AFD90F39EC46005AFEBE /* HelperMain.m in Sources */,
 				CB5DFCB82251DD1F0084CEC2 /* SCConstants.m in Sources */,
+				31FBD33F2487D50700C40B05 /* NSDate+NetworkClock.m in Sources */,
 				CBCA91121960D87300AFD20C /* PacketFilter.m in Sources */,
 				CB73616219E5086A00E0924F /* WhitelistScraper.m in Sources */,
 				CBC2F8580F4672FE00CF2A42 /* LaunchctlHelper.m in Sources */,
+				31FBD33A2487D50700C40B05 /* NHNetAssociation.m in Sources */,
 				CBB0AE2A0FA74566006229B3 /* HostFileBlocker.m in Sources */,
 				CBD266B011ED7D9C00042CD8 /* HelperCommon.m in Sources */,
 				CB32D2A921902CB300B8CD68 /* SCSettings.m in Sources */,
+				31FBD3452487D50700C40B05 /* NHNetworkClock.m in Sources */,
 				CB25806216C1FDBE0059C99A /* BlockManager.m in Sources */,
 				CB25806716C237F10059C99A /* NSString+IPAddress.m in Sources */,
+				31FBD2EB2487D4DE00C40B05 /* GCDAsyncUdpSocket.m in Sources */,
+				31FBD2F02487D4DE00C40B05 /* GCDAsyncSocket.m in Sources */,
 				CBB1731520F041F4007FCAE9 /* SCUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1290,9 +1455,8 @@
 /* Begin XCBuildConfiguration section */
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0746E1A1423DD33A138DA63E /* Pods-SelfControl.debug.xcconfig */;
+			baseConfigurationReference = DBA01017E61D6B843CA3758D /* Pods-SelfControl.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1310,13 +1474,6 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = SelfControl_Prefix.pch;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/FormatterKit/FormatterKit.framework/Headers\"",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/LetsMove/LetsMove.framework/Headers\"",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/MASPreferences/MASPreferences.framework/Headers\"",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/TrueTime/TrueTime.framework/Headers\"",
-				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -1325,17 +1482,13 @@
 				PRODUCT_NAME = SelfControl;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
-				SWIFT_OBJC_BRIDGING_HEADER = "SelfControl-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		C01FCF4C08A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93437E6182EECDDB243CB945 /* Pods-SelfControl.release.xcconfig */;
+			baseConfigurationReference = 5F489F28028DC38C046B36D3 /* Pods-SelfControl.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1351,13 +1504,6 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = SelfControl_Prefix.pch;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/FormatterKit/FormatterKit.framework/Headers\"",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/LetsMove/LetsMove.framework/Headers\"",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/MASPreferences/MASPreferences.framework/Headers\"",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/TrueTime/TrueTime.framework/Headers\"",
-				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -1366,8 +1512,6 @@
 				PRODUCT_NAME = SelfControl;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
-				SWIFT_OBJC_BRIDGING_HEADER = "SelfControl-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1411,8 +1555,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/\"/**";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
@@ -1459,8 +1602,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/\"/**";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = NO;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
@@ -1498,7 +1640,6 @@
 				);
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/\"/**";
 				INFOPLIST_FILE = SelfControlTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
@@ -1506,9 +1647,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.selfcontrolapp.SelfControlTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "SelfControlTests-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelfControl.app/Contents/MacOS/SelfControl";
 			};
 			name = Debug;
@@ -1536,7 +1674,6 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/\"/**";
 				INFOPLIST_FILE = SelfControlTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
@@ -1544,8 +1681,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.selfcontrolapp.SelfControlTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "SelfControlTests-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelfControl.app/Contents/MacOS/SelfControl";
 			};
 			name = Release;
@@ -1585,7 +1720,6 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/\"/**";
 				INFOPLIST_FILE = "SelfControl Killer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -1593,9 +1727,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.selfcontrolapp.SelfControl-Killer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "SelfControl Killer-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1615,7 +1746,6 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 3;
@@ -1628,15 +1758,12 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/\"/**";
 				INFOPLIST_FILE = "SelfControl Killer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.selfcontrolapp.SelfControl-Killer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "SelfControl Killer-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1659,7 +1786,6 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				DEVELOPMENT_TEAM = 72BN3545LH;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = NO;
@@ -1674,17 +1800,12 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/\"/**";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "SCKillerHelper-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1709,7 +1830,6 @@
 				DEVELOPMENT_TEAM = 72BN3545LH;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1717,45 +1837,31 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/\"/**";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "SCKillerHelper-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 		CB9F02F016C10CDE003054EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "Developer ID Application";
-				HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/\"/**";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Distribution-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		CB9F02F116C10CDE003054EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "Developer ID Application";
-				HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/\"/**";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Distribution-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1767,7 +1873,6 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = 72BN3545LH;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_MODEL_TUNING = G5;
@@ -1776,7 +1881,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
 				GCC_VERSION = "";
-				HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/\"/**";
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				OTHER_LDFLAGS = (
@@ -1792,7 +1896,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "org.eyebeam.SelfControl-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1804,14 +1907,12 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = 72BN3545LH;
 				GCC_MODEL_TUNING = G5;
 				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
 				GCC_VERSION = "";
-				HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/\"/**";
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				OTHER_LDFLAGS = (
@@ -1826,7 +1927,6 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "org.eyebeam.SelfControl-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
 				ZERO_LINK = NO;
 			};
 			name = Release;

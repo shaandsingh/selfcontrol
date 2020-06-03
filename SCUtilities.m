@@ -8,6 +8,7 @@
 #import "SCUtilities.h"
 #import "HelperCommon.h"
 #import "SCSettings.h"
+#import "NHNetworkTime.h"
 
 @implementation SCUtilities
 
