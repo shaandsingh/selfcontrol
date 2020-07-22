@@ -401,33 +401,33 @@ double ntpDiffSeconds(NHTimeStamp *start, NHTimeStamp *stop) {
         self.observers = [[NSMutableArray alloc] init];
     }
 
-//    [self.observers addObject:[[NSNotificationCenter defaultCenter] addObserverForName:UIApplicationDidEnterBackgroundNotification
-//                                                                                object:nil
-//                                                                                 queue:nil
-//                                                                            usingBlock:^
-//	 (NSNotification * note) {
-//		 NTP_Logging(@"Application -> Background");
-//
-//         __strong typeof(weakSelf) strongSelf = weakSelf;
-//
-//         if(strongSelf) {
-//             [strongSelf finish];
-//         }
-//     }]];
+    [self.observers addObject:[[NSNotificationCenter defaultCenter] addObserverForName:NSApplicationDidResignActiveNotification
+                                                                                object:nil
+                                                                                 queue:nil
+                                                                            usingBlock:^
+	 (NSNotification * note) {
+		 NTP_Logging(@"Application -> Background");
 
-//	[self.observers addObject:[[NSNotificationCenter defaultCenter] addObserverForName:UIApplicationWillEnterForegroundNotification
-//                                                                                object:nil
-//                                                                                 queue:nil
-//                                                                            usingBlock:^
-//	 (NSNotification * note) {
-//		 NTP_Logging(@"Application -> Foreground");
-//
-//         __strong typeof(weakSelf) strongSelf = weakSelf;
-//
-//         if(strongSelf) {
-//             [strongSelf enable];
-//         }
-//	 }]];
+         __strong NHNetAssociation *strongSelf = weakSelf;
+
+         if(strongSelf) {
+             [strongSelf finish];
+         }
+     }]];
+
+	[self.observers addObject:[[NSNotificationCenter defaultCenter] addObserverForName:NSApplicationWillBecomeActiveNotification
+                                                                                object:nil
+                                                                                 queue:nil
+                                                                            usingBlock:^
+	 (NSNotification * note) {
+		 NTP_Logging(@"Application -> Foreground");
+
+         __strong NHNetAssociation *strongSelf = weakSelf;
+
+         if(strongSelf) {
+             [strongSelf enable];
+         }
+	 }]];
 
     // significantTimeChange -- trash the fifo ..
 	[self.observers addObject:[[NSNotificationCenter defaultCenter] addObserverForName:NSSystemClockDidChangeNotification

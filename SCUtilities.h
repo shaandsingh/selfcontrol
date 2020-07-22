@@ -16,6 +16,8 @@
 
 + (NSArray<NSString*>*) cleanBlocklistEntry:(NSString*)rawEntry;
 
++ (BOOL) remedyDateMismatchBetweenNetworkAndSettings:(SCSettings*)settings;
+
 /* BLOCK SETTING METHODS */
 
 // The point of these methods is basically to abstract out whether we're using blockStartedDate (the old system)

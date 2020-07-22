@@ -9,6 +9,7 @@
  */
 
 #import <sys/time.h>
+#import <Cocoa/Cocoa.h>
 #import "GCDAsyncUdpSocket.h"
 
 @protocol NHNetAssociationDelegate;

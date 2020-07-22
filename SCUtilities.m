@@ -238,4 +238,18 @@
     return YES;
 }
 
+// Returns YES and adjusts the block settings if system time does not match the network time (timezone difference is an exception).
++ (BOOL) remedyDateMismatchBetweenNetworkAndSettings:(SCSettings*)settings {
+    NSDate *networkDate = [NSDate networkDate];
+    NSDate *systemDate = [NSDate date];
+    
+    if ([systemDate compare:networkDate] != NSOrderedSame) {
+        NSLog(@"DIFF");
+    } else {
+        NSLog(@"SAME");
+    }
+    
+    return NO;
+}
+
 @end

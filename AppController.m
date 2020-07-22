@@ -284,6 +284,12 @@ NSString* const kSelfControlErrorDomain = @"SelfControlErrorDomain";
 	[refreshUILock_ unlock];
 }
 
+- (void)handleNetworkTimeSyncedNotification {
+    if ([SCUtilities remedyDateMismatchBetweenNetworkAndSettings:settings_]) {
+        NSLog(@"INFO: Had to remedy a date mismatch between the system and network. Tampering unlikely—network time just came in.");
+    }
+}
+
 - (void)handleConfigurationChangedNotification {
     // if our configuration changed, we should assume the settings may have changed
     [[SCSettings currentUserSettings] reloadSettings];
@@ -334,7 +340,15 @@ NSString* const kSelfControlErrorDomain = @"SelfControlErrorDomain";
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 	[NSApplication sharedApplication].delegate = self;
-
+    
+    // Fetch the network time ASAP, post a notification when done
+    [[NHNetworkClock sharedNetworkClock] synchronize];
+    
+    [[NSNotificationCenter defaultCenter] addObserver: self
+                                             selector: @selector(handleNetworkTimeSyncedNotification)
+                                                 name: kNHNetworkTimeSyncCompleteNotification
+                                               object: nil];
+    
 	// Register observers on both distributed and normal notification centers
 	// to receive notifications from the helper tool and the other parts of the
 	// main SelfControl app.  Note that they are divided thusly because distributed
@@ -350,9 +364,6 @@ NSString* const kSelfControlErrorDomain = @"SelfControlErrorDomain";
 											   object: nil];
 
 	[initialWindow_ center];
-    
-    // Synchronize the network time
-    [[NHNetworkClock sharedNetworkClock] synchronize];
 
 	// We'll set blockIsOn to whatever is NOT right, so that in refreshUserInterface
 	// it'll fix it and properly refresh the user interface.
@@ -872,7 +883,7 @@ NSString* const kSelfControlErrorDomain = @"SelfControlErrorDomain";
     // set the new block end date
     [settings_ setValue: newBlockEndDate forKey: @"BlockEndDate"];
     
-    // synchronize it to disk to the helper tool knows immediately
+    // synchronize it to disk so the helper tool knows immediately
     [settings_ synchronizeSettings];
     
     // let the timer know it needs to recalculate
